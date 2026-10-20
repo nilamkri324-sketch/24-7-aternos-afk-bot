@@ -1,6 +1,6 @@
 {
   "bot-account": {
-    "username": "bot",,
+    "username": "bot",
     "type": "microsoft"
   },
 
@@ -20,7 +20,6 @@
   "utils": {
     "auto-auth": {
       "enabled": false,
-      "password": ""
     },
 
     "anti-afk": {

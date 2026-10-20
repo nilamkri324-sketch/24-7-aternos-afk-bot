@@ -21,19 +21,19 @@
   "utils": {
     "auto-auth": {
       "enabled": false,
-      "password": "12345678"
+      "password": ""
     },
 
     "anti-afk": {
       "enabled": false,
-      "sneak": false,
-      "jump": false,
-      "rotate": false,
+      "sneak": true,
+      "jump": true,
+      "rotate": true,
 
       "hit": {
         "enabled": false,
-        "delay": 1000,
-        "attack-mobs": false
+        "delay": 100,
+        "attack-mobs": true
       },
 
       "circle-walk": {
@@ -56,7 +56,7 @@
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
-    "auto-reconnect-delay": 5000
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 1
   }
 }
